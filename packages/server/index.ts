@@ -11,6 +11,10 @@ app.get("/", (req: Request, res: Response) => {
   res.send("Hello, World! AI APP is running.");
 });
 
+app.get("/api/hello", (req: Request, res: Response) => {
+  res.json({ message: "Hello, World! AI APP is running." });
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
