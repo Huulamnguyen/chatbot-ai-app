@@ -16,7 +16,7 @@ function App() {
          <h1 className="text-3xl font-bold text-cyan-400 text-center p-4">
             {message || 'Loading...'}
          </h1>
-         <Button className="mx-auto block">Click Me</Button>
+         <Button className="mx-auto block">Click Me!</Button>
       </div>
    );
 }
